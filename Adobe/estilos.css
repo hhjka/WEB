@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: url(fondo-1400x860.jpg);
+    width: 1400px;
+    height: 720px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container { 
+    padding-left: 10%;
+    padding-right: 10%;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10%;
+    width: 100%;
+    font-size: 0, 8em;
+
+}
+
+header img {
+    height: 80px;
+    justify-content: flex-start;
+    display: flex;
+
+
+}
+
+header ul {
+    width: 50%;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    font-size: 1em;
+    list-style: none;
+
+}
+
+header li {
+    margin-left: 3%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+
+.tronco{
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    
+}
+.izq{
+    padding-top: 5%;
+    padding-right: 10%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.caja {
+    margin-bottom: 5%;
+}
+div a{
+    text-decoration: none;
+    color:rgb(74, 146, 255);
+}
+#boton{
+    background-color:rgb(74, 146, 255) ;
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.drch{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.creditos{
+    font-weight: bold;
+    margin-bottom: 2%;
+    color: black;
+}
+.linea{
+    margin-bottom: 3%;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.programas{
+    display: flex;
+    align-items: center;
+
+}
+.pp{
+    display: flex;
+    margin-right: 2%;
+}
+div img{
+    height: 30px;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-left: 9%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 120px;
+    background-color: rgb(28, 28, 28);
+}
+footer div {
+    display: flex;
+    align-content: center;
+    background-color: black;
+    height: 15px;
+    width: 1px;
+}
+.vert {
+    margin-top: 1%;
+    margin-right: 1%;
+    display: flex;
+    align-content: center;
+}
+#amarillo{
+    color: rgb(255, 215, 54);
+}
