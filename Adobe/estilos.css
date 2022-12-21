@@ -6,8 +6,8 @@
 
 section {
     background-image: url(fondo-1400x860.jpg);
-    width: 1400px;
-    height: 720px;
+    background-size: cover;
+    height: 780px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

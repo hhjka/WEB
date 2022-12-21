@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.col-12 col-md-8{
+    border: 3em;
+    background-color: blue;
+    height: 100px;
+}
